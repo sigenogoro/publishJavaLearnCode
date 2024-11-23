@@ -1,10 +1,7 @@
-package org.learn.example.dI.rpg.services;
+package org.learn.example.rpg.dI.rpg.services;
 
-import org.learn.example.dI.rpg.characters.CharacterType;
-import org.learn.example.dI.rpg.weapons.*;
-
-import java.util.Random;
-import java.util.SortedMap;
+import org.learn.example.rpg.dI.rpg.characters.CharacterType;
+import org.learn.example.rpg.dI.rpg.weapons.*;
 
 // 武器提供を行うサービスクラス
 public class WeaponService {

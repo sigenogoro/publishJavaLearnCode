@@ -1,4 +1,4 @@
-package org.learn.example.dI.rpg.characters;
+package org.learn.example.rpg.dI.rpg.characters;
 
 public enum CharacterType {
     // 剣士

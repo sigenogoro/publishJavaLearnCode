@@ -1,4 +1,4 @@
-package org.learn.example.dI.rpg.weapons;
+package org.learn.example.rpg.dI.rpg.weapons;
 
 public class Sword implements Weapon {
     @Override
