@@ -1,8 +1,6 @@
-package org.learn.example.dI.rpg.characters;
+package org.learn.example.rpg.dI.rpg.characters;
 
-import org.learn.example.dI.rpg.weapons.Weapon;
-
-import javax.xml.stream.events.Characters;
+import org.learn.example.rpg.dI.rpg.weapons.Weapon;
 
 public class Character {
     protected String name;

@@ -1,15 +1,15 @@
-package org.learn.example.dI.rpg.weapons;
+package org.learn.example.rpg.dI.rpg.weapons;
 
-public class Dagger implements Weapon {
+public class Club implements Weapon {
 
     @Override
     public WeaponType getWeaponType() {
-        return WeaponType.DAGGER;
+        return WeaponType.CLUB;
     }
 
     @Override
     public String useWeapon() {
-        return "短剣で切り付けた！";
+        return "弓で射抜いた！";
     }
 
     @Override

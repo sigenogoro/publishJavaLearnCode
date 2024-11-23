@@ -1,12 +1,10 @@
-package org.learn.example.dI.rpg.main;
+package org.learn.example.rpg.dI.rpg.main;
 
 
-import org.learn.example.dI.rpg.characters.Character;
-import org.learn.example.dI.rpg.characters.CharacterType;
-import org.learn.example.dI.rpg.characters.supporter.Warrior;
-import org.learn.example.dI.rpg.services.CharacterService;
-import org.learn.example.dI.rpg.services.WeaponService;
-import org.learn.example.dI.rpg.weapons.Weapon;
+import org.learn.example.rpg.dI.rpg.characters.Character;
+import org.learn.example.rpg.dI.rpg.characters.CharacterType;
+import org.learn.example.rpg.dI.rpg.services.CharacterService;
+import org.learn.example.rpg.dI.rpg.services.WeaponService;
 
 public class Main {
     public static  void main(String[] args) {
