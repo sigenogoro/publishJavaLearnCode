@@ -1,4 +1,4 @@
-package org.learn.example.sampleUML.basic;
+package org.learn.example.rpg.connection;
 
 class Weapon {
     String name;

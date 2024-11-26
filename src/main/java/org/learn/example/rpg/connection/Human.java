@@ -1,4 +1,6 @@
-package org.learn.example.sampleUML.basic;
+package org.learn.example.rpg.connection;
+
+import org.learn.example.rpg.connection.armor.Armor;
 
 class Human {
     private String name;

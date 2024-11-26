@@ -1,4 +1,4 @@
-package org.learn.example.sampleUML.basic.armor;
+package org.learn.example.rpg.connection.armor;
 
 public class Body {
     private String name;

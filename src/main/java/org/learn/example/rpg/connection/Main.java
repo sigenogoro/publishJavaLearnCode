@@ -1,9 +1,6 @@
-package org.learn.example.sampleUML.basic;
+package org.learn.example.rpg.connection;
 
-import org.learn.example.sampleUML.basic.armor.Arms;
-import org.learn.example.sampleUML.basic.armor.Body;
-import org.learn.example.sampleUML.basic.armor.Head;
-import org.learn.example.sampleUML.basic.armor.Legs;
+import org.learn.example.rpg.connection.armor.*;
 
 public class Main {
     public static  void main(String[] args) {
