@@ -1,9 +1,9 @@
-package org.learn.example.rpg.connection;
+package org.learn.example.rpg.connection.composition;
 
-import org.learn.example.rpg.connection.armor.Arms;
-import org.learn.example.rpg.connection.armor.Body;
-import org.learn.example.rpg.connection.armor.Head;
-import org.learn.example.rpg.connection.armor.Legs;
+import org.learn.example.rpg.connection.composition.armor.Arms;
+import org.learn.example.rpg.connection.composition.armor.Body;
+import org.learn.example.rpg.connection.composition.armor.Head;
+import org.learn.example.rpg.connection.composition.armor.Legs;
 
 class Armor {
     private Head head;

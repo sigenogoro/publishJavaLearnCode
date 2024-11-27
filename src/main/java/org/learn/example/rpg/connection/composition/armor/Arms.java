@@ -1,4 +1,4 @@
-package org.learn.example.rpg.connection.armor;
+package org.learn.example.rpg.connection.composition.armor;
 
 public class Arms {
     private String name;

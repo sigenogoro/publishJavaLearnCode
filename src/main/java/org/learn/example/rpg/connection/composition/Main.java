@@ -1,6 +1,6 @@
-package org.learn.example.rpg.connection;
+package org.learn.example.rpg.connection.composition;
 
-import org.learn.example.rpg.connection.armor.*;
+import org.learn.example.rpg.connection.composition.armor.*;
 
 public class Main {
     public static  void main(String[] args) {

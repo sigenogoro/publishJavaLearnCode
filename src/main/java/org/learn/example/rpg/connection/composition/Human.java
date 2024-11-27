@@ -1,6 +1,4 @@
-package org.learn.example.rpg.connection;
-
-import org.learn.example.rpg.connection.armor.Armor;
+package org.learn.example.rpg.connection.composition;
 
 class Human {
     private String name;

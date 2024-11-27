@@ -1,11 +1,11 @@
-package org.learn.example.rpg.connection.armor;
+package org.learn.example.rpg.connection.aggregation.armor;
 
-public class Body {
+public class Legs {
     private String name;
     private int defenseBonus;
     private int magicDefenseBonus;
 
-    public Body(String name, int defenseBonus, int magicDefenseBonus) {
+    public Legs(String name, int defenseBonus, int magicDefenseBonus) {
         this.name = name;
         this.defenseBonus = defenseBonus;
         this.magicDefenseBonus = magicDefenseBonus;
