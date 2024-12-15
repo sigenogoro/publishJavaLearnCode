@@ -3,14 +3,14 @@ package org.learn.example.course.mammal;
 import org.learn.example.course.animal.Animal;
 
 public class Mammal extends Animal {
-    private double furLengthCm; // 毛の長さ
-    private String furType; // 毛のタイプ:
-    private int toothCounter; // 歯の数
-    private double bodyTemperatureC; // 体温
-    private double avgBodyTemperatureC; // 平均体温
-    private boolean mammaryGland = false; // 乳腺の有無
-    private boolean sweatGland = true; //汗腺の有無
-    private boolean isPregnant = false; //妊娠の有無
+    protected double furLengthCm; // 毛の長さ
+    protected String furType; // 毛のタイプ:
+    protected int toothCounter; // 歯の数
+    protected double bodyTemperatureC; // 体温
+    protected double avgBodyTemperatureC; // 平均体温
+    protected boolean mammaryGland = false; // 乳腺の有無
+    protected boolean sweatGland = true; //汗腺の有無
+    protected boolean isPregnant = false; //妊娠の有無
 
     public Mammal(String species, double heightM, double weightKg, double lifeSpanDays, String biologicalSex, double furLengthCm, String furType, double avgBodyTemperatureC){
         super(species, heightM, weightKg, lifeSpanDays, biologicalSex);

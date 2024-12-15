@@ -68,17 +68,40 @@ class Person extends Mammal {
 
 // 牛クラス
 class Cow extends Mammal {
+    private double milk;
     public Cow(String species, double heightM, double weightKg, double lifeSpanDays, String biologicalSex, double furLengthCm, String furType, double avgBodyTemperatureC) {
         super(species, heightM, weightKg, lifeSpanDays, biologicalSex, furLengthCm, furType, avgBodyTemperatureC);
+        if(mammaryGland) {
+            this.milk = 0;
+        }
+    }
+
+    // ミルク量を取得
+    public double getMilk() {
+        return this.milk;
+    }
+
+    // ミルクが出る
+    public void setMilk(){
+        produceMilk();
+        this.milk = 1.5;
+    }
+
+    public BMI getBMI(){
+        return this.bmi;
     }
 }
 
 // 馬クラス
 class Horse extends Mammal {
-    private double mileage;
+    private double mileage = 0;
     public Horse(String species, double heightM, double weightKg, double lifeSpanDays, String biologicalSex, double furLengthCm, String furType, double avgBodyTemperatureC, double mileage) {
         super(species, heightM, weightKg, lifeSpanDays, biologicalSex, furLengthCm, furType, avgBodyTemperatureC);
         this.mileage = mileage;
+    }
+
+    public double getMileage(){
+        return mileage;
     }
 }
 
@@ -142,15 +165,31 @@ class Chicken extends Bird {
 class FarmProfitManager {
     private static final int PRICE_PER_KG = 1000; // 1kgあたりの価格
     private static final int PRICE_PER_EGG = 30; // 1個あたりの価格
+    private static final int PRICE_PER_KM = 5; //1キロメートルの価格
 
     // 鶏の重量での利益
-    public int chickenProfit(Chicken chicken){
+    public int chickenBMI(Chicken chicken){
         return (int) (chicken.getBMI().getWeightKg() * PRICE_PER_KG);
     }
 
+    // 牛の重量での利益
+    public int cowBMI(Cow cow) {
+        return (int) (cow.getBMI().getWeightKg() * PRICE_PER_KG);
+    }
+
+    // 牛のミルクでの利益
+    public int cowMilk(Cow cow) {
+        return (int) (cow.getMilk() * PRICE_PER_KG);
+    }
+
     // 卵の利益
-    public int chickenEggProfit(Chicken chicken) {
+    public int chickenEgg(Chicken chicken) {
         return chicken.removeEgg() * PRICE_PER_EGG;
+    }
+
+    // 走行距離での利益
+    public int horseMileage(Horse horse){
+        return (int) horse.getMileage() * PRICE_PER_KM;
     }
 }
 
