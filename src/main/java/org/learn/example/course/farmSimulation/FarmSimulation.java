@@ -1,8 +1,8 @@
-package org.learn.example.course;
+package org.learn.example.course.farmSimulation;
 
-import org.learn.example.course.animal.Animal;
-import org.learn.example.course.bmi.BMI;
-import org.learn.example.course.mammal.Mammal;
+import org.learn.example.course.farmSimulation.animal.Animal;
+import org.learn.example.course.farmSimulation.bmi.BMI;
+import org.learn.example.course.farmSimulation.mammal.Mammal;
 
 import java.util.ArrayList;
 import java.util.List;

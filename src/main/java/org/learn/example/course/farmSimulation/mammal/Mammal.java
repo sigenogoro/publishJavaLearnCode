@@ -1,6 +1,6 @@
-package org.learn.example.course.mammal;
+package org.learn.example.course.farmSimulation.mammal;
 
-import org.learn.example.course.animal.Animal;
+import org.learn.example.course.farmSimulation.animal.Animal;
 
 public class Mammal extends Animal {
     protected double furLengthCm; // 毛の長さ

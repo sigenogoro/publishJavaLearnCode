@@ -1,6 +1,6 @@
-package org.learn.example.course.animal;
+package org.learn.example.course.farmSimulation.animal;
 
-import org.learn.example.course.bmi.BMI;
+import org.learn.example.course.farmSimulation.bmi.BMI;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

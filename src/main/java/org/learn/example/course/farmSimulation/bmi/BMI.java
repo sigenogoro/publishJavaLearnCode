@@ -1,4 +1,4 @@
-package org.learn.example.course.bmi;
+package org.learn.example.course.farmSimulation.bmi;
 
 // 人間や動物のBMI（Body Mass Index：肥満度を表す指数）を計算するクラス
 public class BMI{
