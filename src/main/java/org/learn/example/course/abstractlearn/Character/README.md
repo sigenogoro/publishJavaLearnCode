@@ -21,6 +21,11 @@ classDiagram
         + attack()
     }
 
+    class Archer {
+        + Archer(String name, int health, int mana)
+        + attack()
+    }
+
     Character <|-- Warrior
     Character <|-- Mage
 ```
